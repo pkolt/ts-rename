@@ -1,0 +1,39 @@
+{
+  "name": "ts-rename",
+  "version": "0.0.0",
+  "description": "Renames *.js files to *.mjs or *.cjs",
+  "main": "lib/ts-rename.js",
+  "type": "commonjs",
+  "repository": "pkolt/ts-rename",
+  "scripts": {
+    "format": "prettier --check lib",
+    "format-fix": "prettier --write lib",
+    "release": "release-it"
+  },
+  "keywords": [
+    "typescript",
+    "commonjs",
+    "esm"
+  ],
+  "bugs": {
+    "url": "https://github.com/pkolt/ts-rename/issues",
+    "email": "pkoltyshev@gmail.com"
+  },
+  "author": "Pavel Koltyshev <pkoltyshev@gmail.com>",
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "lib/*"
+  ],
+  "bin": {
+    "ts-rename": "./lib/ts-rename.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 18"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "release-it": "^15.11.0"
+  }
+}
