@@ -1,6 +1,6 @@
 {
   "name": "ts-rename",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Renames *.js files to *.mjs or *.cjs",
   "main": "lib/ts-rename.js",
   "type": "commonjs",
